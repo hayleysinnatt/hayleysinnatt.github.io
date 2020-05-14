@@ -9,6 +9,129 @@ a {
 
 
 
+.button4 {
+	padding:20px;
+	font-size: 40px;
+	border: 5px solid black;
+	border-radius:40px;
+	width:400px;
+	text-align: center;
+	color:black;
+	background-color: white;
+
+	
+}
+	
+.menu {
+	
+	position:fixed;
+	top:150px;
+	right:0px;
+	cursor:pointer;
+	
+}
+
+.menu img {
+	width:200px;
+}
+
+.close {
+	position:fixed;
+	right:21px;
+	top:11px;
+	cursor:pointer;
+	z-index: 10;
+	display:none;
+
+}
+
+.close.show{
+	display:block;
+}
+
+.subhead {
+	text-align: center;
+	font-size:20px;
+}
+
+.close img {
+	width:80px;
+}
+.essay {
+	width:40%;
+	height:100vh;
+	background-color: dodgerblue;
+	border-left: 10px solid red;
+	position:fixed;
+	right:0px;
+	top:0px;
+	overflow: scroll;
+	margin-right:-40%;
+	transition:1s;
+
+}
+
+.essay h1{
+	font-size:64px;
+	text-align:center;
+	padding:20px;
+}
+.essay p {
+	padding:20px;
+	font-size: 20px;
+
+}
+
+.essay.slide {
+	margin-right:0;
+	transition:1s;
+}
+
+
+.button:hover {
+	
+	background-color: orange;
+
+}
+
+.button4:hover {
+	background-color:  orange;
+}
+
+
+.button1:hover {
+	background-color: orange;
+}
+
+.button2:hover{
+	background-color: orange;
+
+}
+
+
+.button {
+	padding:20px;
+	font-size: 60px;
+	border: 5px solid red;
+	border-radius:40px;
+	width:550px;
+	text-align: center;
+	color:red;
+	background-color: white;
+	margin-left: 1000px;
+}
+
+.button2 {
+	padding:20px;
+	font-size: 60px;
+	border: 5px solid red;
+	border-radius:40px;
+	width:550px;
+	text-align: center;
+	color:red;
+	background-color: white;
+	margin-left:600px;
+}
 
 
 
@@ -17,18 +140,21 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.button1 {
+	padding:20px;
+	font-size: 50px;
+	border: 5px solid black;
+	background: blue;
+	border-radius:100%;
+	width:450px;
+	height:450px;
+	text-align: center;
+	line-height: 400px;
+	color:black;
+	position:absolute;
+	margin-right: 500px;
+	margin-top: 1200px;
+}
 
 
 
@@ -38,6 +164,7 @@ a {
 .container {
 display:flex;
 flex-wrap:wrap;
+
 }
 
 .scribble{
@@ -50,13 +177,13 @@ flex-wrap:wrap;
 .titles img{
 	width:90%;
 
+
 }
 .titles2 img{
 	
 	margin-left: 185px;
-
-	
 }
+
 
 
 .c1of2{
@@ -67,6 +194,7 @@ flex-wrap:wrap;
 
 .item img {
 width:100%;
+display:block;
 }
 
 .w1of1 {
@@ -97,17 +225,21 @@ width:100%;
 
 
 
+.orange {
+	height:160vh;
+	background-color: orange;
 
+}
 
 /*menu*/
 
-.menu{
+.first{
 	background-color:blue;
 	padding-top: 50px;
 	padding-bottom:50px;
 	
 }
-.menu .item{
+.first .item{
 	padding-left: 50px;
 	padding-right: 50px;
 	width:25%;
@@ -124,21 +256,14 @@ width:100%;
 	width: 600px;
 	margin-left: 200px;
 
+
 }
 
-.orange .item{
-	padding-left: 50px;
-	padding-right:50px;
-}
 
 .secondbubble img{
 	width:700px;
 	margin-left: 100px
-}
 
-.twopage .col {
-	height:100vh;
-	overflow: scroll;
 }
 
 .final{
