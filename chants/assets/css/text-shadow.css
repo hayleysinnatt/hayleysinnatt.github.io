@@ -1,0 +1,43 @@
+body {background-color:lightblue;
+	font-family:arial;
+
+}
+
+.bg {text-align:center;
+} 
+
+.bg.one{text-shadow: 0px 0px 20px red;}
+
+.bg.two{text-shadow: 0px 0px 20px lime;}
+
+.bg.three {text-shadow: 0px 0px 10px cyan;}
+
+.bg.four {text-shadow: 0px 0px 60px orange;}
+
+
+.mid {color:white;}
+
+.mid.one{color:yellow;}
+
+.mid.two{color:red;}
+
+.mid.three{color:lime;}
+
+.mid.four{color:lightblue;}
+
+
+.text{}
+
+.text.one{font-size:30px;}
+
+.text.two{font-size:70px;}
+
+.text.three{font-size:200px;
+line-height:180px;}
+
+.text.four {font-size:300px;
+line-height:235px;}
+
+.text.four
+
+
