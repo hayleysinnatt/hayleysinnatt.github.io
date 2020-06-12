@@ -10,17 +10,17 @@ a {
 }
 
 .foodyspread{
-	width:900px;
+	width:1200px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:20px;
+	
 }
 
 
 
 .foodyspread img {
 width:100%;
-border:10px solid orangered;
+border:20px solid orangered;
 
 }
 
@@ -31,12 +31,13 @@ border:10px solid orangered;
 
 
 .links {
-	;
+	
 	background-color: orangered;
 	position:fixed;
 	top:90px;
 	right:90px;
 	font-family:courier;
+	padding: 10px;
 
 
 }
@@ -50,6 +51,7 @@ border:10px solid orangered;
 	margin-bottom: 10px;
 	display:block;
 
+
  
 }
 
@@ -59,26 +61,73 @@ border:10px solid orangered;
 }
 
 .name {
-	font-size:70px;
+	font-size:100px;
 	text-align: center;
 	text-shadow:0px 0px 20px orange;
+	font-family: arial black;
 }
 
 .copy {
-	font-size: 200px;
+	font-size: 180px;
 	font-weight: bold;
 	text-align: center;
 text-shadow: 10px 10px 10px orangered;
-font-family:helvetica;
+font-family:arial black;
+padding:100px;
 
 	
 }
 
-.icon{
-	width:50%;
+.icon img{
+	width:15%;
+	position:absolute;
+	top:500px;
+	left:20px;
+
+}
+.icon1 img{
+	width:20%;
+	position:absolute;
+	top:400px;
+	left:1400px;
+
+}
+.icon2 img{
+	width:10%;
+	position:absolute;
+	top:700px;
+
+}
+.icon3 img{
+	width:15%;
+	position:absolute;
+	top:1000px;
+
+}
+.icon4 img{
+	width:10%;
 	position:absolute;
 	top:50px;
-	left:100px;
+
+}
+.icon5 img{
+	width:10%;
+	position:absolute;
+	top:950px;
+	right:50px;
+
+}
+.icon6 img{
+	width:15%;
+	position:absolute;
+	top:1400px;
+	right:30px;
+
+}
+.icon7 img{
+	width:15%;
+	position:absolute;
+	top:1800px;
 
 }
 
