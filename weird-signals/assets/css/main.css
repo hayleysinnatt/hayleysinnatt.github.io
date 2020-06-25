@@ -60,8 +60,8 @@ a {
 .essay {
 	width:40%;
 	height:100vh;
-	background-color: dodgerblue;
-	border-left: 10px solid red;
+	background-color: white;
+
 	position:fixed;
 	right:0px;
 	top:0px;
