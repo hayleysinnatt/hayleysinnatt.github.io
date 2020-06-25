@@ -55,10 +55,12 @@ a {
 display:flex;
 flex-wrap:wrap;
 
+
 }
 
 .pattern:hover{
 	cursor:pointer;
+
 }
 
 .first{
@@ -132,8 +134,8 @@ position:fixed;
 margin-left:1500px;
 opacity:80%;
 
-}
 
+}
 
 
 
@@ -219,13 +221,16 @@ opacity:80%;
 .pattern {
 	 display:flex;
 	flex-wrap:wrap;
-	padding-top: 150px
+	padding-top: 150px;
+
+
 	
 }
 
-.pattern img{
-	border-radius: solid red 10px;
-}
+
+
+	
+
 
 /*essay*/
 .menu {
