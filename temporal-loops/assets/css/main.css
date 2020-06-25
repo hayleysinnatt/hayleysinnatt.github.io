@@ -39,7 +39,7 @@ a {
 
  .title {
 	width:100%;
-	font-size: 100pt;
+	font-size: 120pt;
 	font-family: arial black;
 	position:absolute;
 	
@@ -57,7 +57,9 @@ flex-wrap:wrap;
 
 }
 
-
+.pattern:hover{
+	cursor:pointer;
+}
 
 .first{
 	background-color: whitesmoke;
@@ -121,6 +123,7 @@ width: 1200px;
 position:absolute;
 opacity:75%;
 
+
 }
 
 .image-2 img{
@@ -130,6 +133,8 @@ margin-left:1500px;
 opacity:80%;
 
 }
+
+
 
 
 .container {
@@ -154,7 +159,7 @@ opacity:80%;
 	width:100%;
 	border-radius: 20px;
 
-	box-shadow: 0px 0px 100px red;
+	box-shadow: 0px 0px 80px red;
 	
 
 }
@@ -193,7 +198,11 @@ opacity:80%;
 
 .digitalartfirst{
 	
-	padding:400px;
+	
+	padding-left: 100px;
+	padding-top: 400px;
+	padding-right:300px;
+
 	font-size:50px;
 	font-family:arial black;
 	color:grey;
@@ -212,6 +221,10 @@ opacity:80%;
 	flex-wrap:wrap;
 	padding-top: 150px
 	
+}
+
+.pattern img{
+	border-radius: solid red 10px;
 }
 
 /*essay*/
@@ -256,14 +269,15 @@ opacity:80%;
 }
 .essay {
 	width:50%;
-	height:80vh;
-	background-color: whitesmoke;
-	position:fixed;
+	height:152vh;
+	background-color: gainsboro;
+	position:absolute;
 	right:0px;
-	top:200px;
+	top: 500px;
 	overflow: scroll;
-	margin-right:-50%;
+	margin-left:50%;
 	transition:1s;
+	background-opacity:50%;
 
 }
 
@@ -271,8 +285,9 @@ opacity:80%;
 	font-size:64px;
 	text-align:center;
 	padding:20px;
+	padding-top: 50px;
 	font-family:arial black;
-	color:red;
+	color:dimgrey;
 }
 .essay p {
 	
@@ -295,5 +310,72 @@ opacity:80%;
 }
  /*end essay*/
 
+ .notice{
+ 	background-color: darkgrey;
+ 	height:30vh;
+ 	font-family:arial black;
+ 	color:white;
+ 	text-align: center;
+ 	padding-top:70px;
+ 	
+ }
 
+ .copyright{
+ 	background-color:grey;
+ 	height:4vh;
+ 	text-align: center;
+ 	font-size: 11pt;
+ 	padding:11px;
+
+ }
+
+.box{
+	width:200px;
+	height:30px;
+	background-color:white;
+	position:absolute;
+	right:730px;
+	margin-top: 20px;
+	cursor:pointer;
+
+
+}
+
+.box2{
+	width:200px;
+	height:30px;
+	background-color:white;
+	position:absolute;
+	
+	margin-top: 40px;
+	cursor:pointer;
+
+}
+
+.bodytext2{
+	font-family:arial;
+	font-size:11pt;
+	position:absolute;
+	margin-left: 750px;
+	margin-top:30px;
+
+}
+
+.subscribe{
+	font-family:arial;
+	color:black;
+	font-size:11pt;
+
+	width:130px;
+	height:25px;
+	margin-top: 130px;
+	background-color:white;
+	text-align: center;
+	padding:5px;
+	margin-left: 850px;
+	cursor:pointer;
+
+
+
+}
 
